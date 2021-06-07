@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Conversions
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Conversion =====> Integer to String
+            int NumOne = 100;
+            string MyString1;
+
+            MyString1 = NumOne.ToString();
+            Console.WriteLine("Value of MyString1 is: "+MyString1);
+
+
+
+
+            //Another way to Convert integer to String
+            int NumTwo = 200;
+            string MyString2;
+
+            MyString2 = Convert.ToString(NumTwo);
+            Console.WriteLine("Value of MyString2 is: "+MyString2);
+
+
+            Console.ReadLine();
+
+
+        }
+    }
+}
