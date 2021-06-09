@@ -14,9 +14,9 @@ namespace quiz_application
             int subtract = -1;
             int TotalPoints = 5;
 
-            string[] questions = new string[5];
-            string[] answers = new string[5];
-            string[] myanswers = new string[5];
+            string[] questions = new string[5]; //For Hard-Coded Questions
+            string[] myanswers = new string[5]; //For Hard-Coded Answers
+            string[] answers = new string[5]; //For User Input
 
 
             myanswers[0] = "bejing";
